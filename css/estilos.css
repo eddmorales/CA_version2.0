@@ -1,0 +1,824 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ir-arriba{
+	display: inline-block;
+	padding: 5px;
+	font-size: 50px;
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+.color-azul{
+	color: rgb(0,159,172);
+}
+.fuente{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.fuente2{
+	font-family: 'Roboto', sans-serif;
+}
+.titulo{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #aba7a2;
+}
+.titulo2{
+	color: rgb(26,27,26);
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.titulo3{
+	color: #8C857D;
+	font-family: 'Roboto Condensed', sans-serif;	
+}
+.texto-espec{
+	font-family: 'Roboto', sans-serif;	
+	color: #fff;
+}
+.parrafo{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+}
+
+.tes-tam{
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+.nav-tamano{
+	font-size: 18px;
+}
+
+.img-vivencial{
+	max-width: 100%;
+	padding: 20px;
+}
+
+/*Estilos para ¿Quien soy?*/
+.imgs-cata{
+	width: 550px;
+	height: 300px;
+}
+
+#centrado{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 2px solid grey;
+	border-radius: 25px;
+}
+
+.tipo{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+}
+
+.img-qs{
+	width: 100%;
+	height: 600px;
+}
+
+
+/*Estilos para carousel*/
+#carouselExampleIndicators{
+	margin-top: 15px;
+}
+
+/*Estilos para clientes en escala de grises*/
+.filtro{
+	filter: grayscale(100%);
+	
+}
+
+/*Estilos para iconos de redes sociales*/
+.iconos{
+	color: white;
+}
+
+/*Estilos para los derechos reservados*/
+#copyright{
+	font-size: 18px;
+	color: white;
+	margin-top: 20px;
+}
+
+/*Estilos para página de labor social*/
+.fuente-botones{
+	font-size: 30px;
+}
+.logos-mrs{
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+/*Formulario de contacto*/
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+/*ESTILOS PARA ENTRENAMIENTO*/
+
+.acordeon{
+	color: #493E3E;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 25px
+
+}
+.conte{
+	font-family: 'Roboto', sans-serif;
+	color: #493E3E;
+	font-size: 20px;
+}
+.certificado{
+	transition: 0.7s;
+}
+
+.colorCuerpo{
+	background: #009fac; /* Old browsers */
+background: -moz-linear-gradient(left, #009fac 0%, #005667 95%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#009fac), color-stop(95%,#005667)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(left, #009fac 0%,#005667 95%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(left, #009fac 0%,#005667 95%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(left, #009fac 0%,#005667 95%); /* IE10 preview */
+background: linear-gradient(to right, #009fac 0%,#005667 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009fac', endColorstr='#005667',GradientType=1 ); /* IE6-9 */
+}
+.cueporBoton{
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Media queries */
+
+@media (min-width: 320px){
+	.cuerpoBoton{
+		font-size: 13px;
+		margin-bottom: 40px;
+		margin-top: 30px;
+		padding: 10px 20px;
+	}
+	.texto-espec{
+		font-size: 18px;
+	}
+	.imgs-clientes-separados{
+		width: 200px;
+		height: auto;
+		margin-bottom: 40px;
+		margin-left: 40px;
+	}
+	#logoChris{
+		width: 250px;
+		margin-bottom: 20px;
+		margin-left: 20px;
+	}
+	#centrado{
+		width: 250px;
+	}
+	.tam{
+		height: 180px;
+		width: 100%;
+	}
+	#parra-coach{
+		margin-top: 30px;
+	}
+	.testi-altos{
+	width: 100%;
+	height: 150px;
+	}
+	.filtro{
+		width: 50px;
+		height: 50px;
+	}
+	#titulo-coach{
+		font-size: 30px; 
+	}
+	/*Quien soy*/
+	.certificado{
+		width: 100%;
+	}
+	.imgs-cata{
+		width: 100%;
+		height: 200px;
+	}
+	.tamlinks{
+	font-size: 8px;
+	}
+	#parra-moti{
+		font-size: 25px;
+		margin-bottom: 45px;
+		color: white;
+	}
+	#centrado2{
+	margin-top: 0px;
+	margin-left: 0px;
+	display: block;
+	border: 3px solid grey;
+	padding: 0;
+	overflow: hidden;
+	width: 350px;
+	height: auto;
+	}
+	.textos-qs{
+		font-size: 15px;
+		margin-top: 15px;
+	}
+	.imgs-partes{
+		width: 250px;
+		height: 150px;
+		margin-top: 15px;
+	}
+	.imgs-videos{
+		width: 300px;
+		height: 200px;
+		margin-top: 15px;
+	}
+
+	/* Entrenamiento */
+	.icons-clientes{
+		margin-top: 0;
+		margin-left: 120px;
+	}
+	
+	/* CLIENTES */
+	.clientes-pos{
+		margin-left: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 200px;
+		height: auto;
+	}
+
+	/*Labor social*/
+	.fuente-botones{
+		font-size: 20px;
+	}
+	.fuente-texto{
+		font-size: 18px;
+	}
+	#acomodo1{
+		margin-left: 17px;
+	}
+	#acomodo2{
+		margin-left: 8px;
+	}
+	#acomodo3{
+		margin-left: 65px;
+	}
+
+}
+@media(min-width: 375px){
+	.cuerpoBoton{
+		font-size: 16px;
+	}
+	.imgs-clientes-separados{
+		margin-left: 60px;
+	}
+	#logoChris{
+		width: 250px;
+		margin-bottom: 20px;
+		margin-left: 0;
+	}
+	#centrado{
+		width: 230px;
+	}
+	.tam{
+		height: 200px;
+		width: 100%;
+	}
+	#parra-coach{
+		margin-top: 40px;
+	}
+	.testi-altos{
+	width: 100%;
+	height: 170px;
+	}
+	.filtro{
+		width: 60px;
+		height: 60px;
+	}
+	.tam-videos{
+	width: 350px;
+	height: 250px;
+	}
+	#titulo-coach{
+		font-size: 31px; 
+	}
+
+	/*Quien soy*/
+	.imgs-cata{
+		width: 100%;
+		height: 200px;
+	}
+	.tamlinks{
+	font-size: 12px;
+	}
+	.textos-qs{
+	font-size: 15px;
+	margin-top: 15px;
+	}
+	.imgs-partes{
+	width: 350px;
+	height: 200px;
+	margin-top: 15px;
+	}
+	.imgs-videos{
+	width: 350px;
+	height: 250px;
+	margin-top: 15px;
+	}
+	#centrado2{
+	margin-top: 0px;
+	margin-left: 0px;
+	display: block;
+	border: 3px solid grey;
+	padding: 0;
+	overflow: hidden;
+	width: 350px;
+	height: auto;
+	}
+	#parra-moti{
+		font-size: 30px;
+		text-align: center;
+		margin-bottom: 45px;
+		color: white;
+	}
+
+	/* Entrenamiento */
+	.icons-clientes{
+		margin-top: 10px;
+		margin-left: 150px;
+	}
+
+	.clientes-pos{
+		margin-left: 70px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 200px;
+		height: auto;
+	}
+
+	/*Labor social*/
+	.fuente-botones{
+		font-size: 22px;
+	}
+	.fuente-texto{
+		font-size: 20px;
+	}
+	#acomodo1{
+		margin-left: 45px;
+	}
+	#acomodo2{
+		margin-left: 35px;
+	}
+	#acomodo3{
+		margin-left: 100px;
+	}
+}
+@media(min-width: 425px){
+	.cuerpoBoton{
+		font-size: 18px;
+	}
+	.imgs-clientes-separados{
+		margin-left: 90px;
+	}
+	.tam{
+		height: 220px;
+		width: 100%;
+	}
+	#logoChris{
+		width: 300px;
+		margin-bottom: 20px;
+	}
+	#centrado{
+		width: 250px;
+	}
+	#col-coach{
+		margin-top: 40px;
+	}
+	#parra-coach{
+		margin-top: 40px;
+	}
+	.testi-altos{
+	width: 100%;
+	height: 200px;
+	}
+	.filtro{
+		width: 70px;
+		height: 70px;
+	}
+	.tam-videos{
+	width: 400px;
+	height: 250px;
+	}
+	#titulo-coach{
+		font-size: 33px; 
+	}
+	/*Quien soy*/
+	.imgs-cata{
+		width: 100%;
+		height: 250px;
+	}
+	.tamlinks{
+	font-size: 15px;
+	}
+	#centrado2{
+	margin-top: 50px;
+	margin-left: 0px;
+	display: block;
+	border: 3px solid grey;
+	padding: 0;
+	overflow: hidden;
+	width: 400px;
+	height: auto;
+	}
+	.imgs-partes{
+	width: 350px;
+	height: 250px;
+	margin-top: 15px;
+	}
+	.imgs-videos{
+	width: 400px;
+	height: 300px;
+	margin-top: 15px;
+	}	
+	.textos-qs{
+	font-size: 16px;
+	margin-top: 16px;
+	}
+	#parra-moti{
+		font-size: 30px;
+		text-align: center;
+		margin-bottom: 45px;
+		color: white;
+	}
+
+	/* Entrenamiento */
+	.icons-clientes{
+		margin-top: 0;
+		margin-left: 170px;
+	}
+
+	.clientes-pos{
+		margin-left: 95px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 200px;
+		height: auto;
+	}
+	
+	/* LABOR SOCIAL */
+	#acomodo1{
+		margin-left: 70px;
+	}
+	#acomodo2{
+		margin-left: 60px;
+	}
+	#acomodo3{
+		margin-left: 130px;
+	}
+	.icons-clientes{
+		margin-top: 10px;
+		margin-left: 175px;
+	}
+}
+
+@media (min-width: 768px){
+	.imgs-clientes-separados{
+		width: 130px;
+		height: 70px;
+		margin-left: 0px;
+	}
+	.tam{
+		height: 360px;
+		width: 100%;
+	}
+	#logoChris{
+		width: 450px;
+		height: auto;
+		margin-bottom: 20px;
+		margin-left: 130px;
+	}
+	#col-coach{
+		margin-top: 40px;
+	}
+	#parra-coach{
+		margin-top: 40px;
+	}
+	.testi-altos{
+	width: 100%;
+	height: 250px;
+	}
+	.filtro{
+		width: 100px;
+		height: 100px;
+	}
+	.tam-videos{
+	width: 350px;
+	height: 200px;
+	}
+	#titulo-coach{
+		font-size: 36px; 
+	}
+	#centrado{
+		width: 400px;
+	}
+	/*Quien soy*/
+	.imgs-cata{
+		width: 100%;
+		height: 250px;
+	}
+	.tamlinks{
+	font-size: 20px;
+	}
+	#centrado2{
+	margin-top: 0px;
+	margin-left: 0px;
+	border: 3px solid grey;
+	padding: 0;
+	overflow: hidden;
+	width: 300px;
+	height: 150px;
+	}
+	.imgs-partes{
+	width: 230px;
+	height: 130px;
+	margin-top: 15px;
+	}
+	.imgs-videos{
+	width: 500px;
+	height: 350px;
+	margin-top: 35px;
+	}	
+	.textos-qs{
+	font-size: 17px;
+	margin-top: 17px;
+	}
+	#parra-moti{
+		font-size: 30px;
+		text-align: center;
+		margin-bottom: 45px;
+		color: white;
+	}
+
+	/* Entrenamiento */
+	.icons-clientes{
+		margin-top: 0;
+		margin-left: 55px;
+	}
+	.clientes-pos{
+		margin-left: 0px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 200px;
+		height: auto;
+	}
+
+	/*Labor social*/
+	.fuente-botones{
+		font-size: 20px;
+	}
+	.fuente-texto{
+		font-size: 20px;
+	}
+	#acomodo1{
+		margin-left: 0px;
+	}
+	#acomodo2{
+		margin-left: 0px;
+	}
+	#acomodo3{
+		margin-left: 20px;
+	}
+
+}
+@media(min-width: 1024px){
+	#centrado{
+		width: 470px;
+	}
+	.certificado{
+		width: 400px;
+		height: auto;
+		margin-left: 35%;
+		margin-top: 40px;
+	}
+	.imgs-clientes-separados{
+		width: 220px;
+		height: 130px;
+		margin-left: -40px;
+	}
+	.tam{
+		height: 460px;
+		width: 100%;
+	}
+	#logoChris{
+		margin-bottom: 20px;
+		width: 370px;
+		height: auto;
+		margin-left: 0;
+	}
+	#col-coach{
+		margin-top: 70px;
+	}
+	#parra-coach{
+		margin-top: 40px;
+	}
+	.testi-altos{
+	width: 100%;
+	height: 400px;
+	}
+	.tam-videos{
+	width: 230px;
+	height: 130px;
+	}
+	#titulo-coach{
+		font-size: 38px; 
+	}
+
+	/*Quien soy*/
+	.imgs-cata{
+		width: 100%;
+		height: 250px;
+	}
+	.certificado:hover{
+		border: solid 2px #015498;
+		transition: 0.7s; 
+		width: 600px;
+		height: auto;
+	}
+	.tamlinks{
+	font-size: 25px;
+	}
+	.textos-qs{
+		margin-top: 30px;
+		font-size: 20px;
+	}
+	.filtro{
+		width: 150px;
+		height: 150px;
+	}
+	#centrado2{
+	margin-top: 0px;
+	margin-left: 30px;
+	border: 3px solid grey;
+	padding: 0;
+	overflow: hidden;
+	width: 400px;
+	height: 280px;
+	}
+	.texto-semblanza{
+	margin-left: 30px;
+	font-size: 18px;
+	margin-top: 10px;
+	}
+	.imgs-partes{
+	width: 190px;
+	height: 130px;
+	margin-top: 15px;
+	}
+	#parra-moti{
+		font-size: 30px;
+		text-align: center;
+		margin-bottom: 45px;
+		color: white;
+		margin-top: 110px;
+	}
+
+	/* Entrenamiento */
+	.icons-clientes{
+		margin-top: 0;
+		margin-left: 90px;
+	}
+
+	.clientes-pos{
+		margin-left: 0px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 200px;
+		height: auto;
+	}
+
+	/*Labor social*/
+	.fuente-botones{
+		font-size: 20px;
+	}
+	.fuente-texto{
+		font-size: 20px;
+	}
+	#acomodo1{
+		margin-left: 35px;
+	}
+	#acomodo2{
+		margin-left: 25px;
+	}
+	#acomodo3{
+		margin-left: 30px;
+	}
+	.icons-clientes{
+		margin-top: 10px;
+		margin-left: 90px;
+	}
+}
+@media(min-width: 1440px){
+	#centrado{
+		width: 500px;
+	}
+	#logoChris{
+		width: 500px;
+	}
+    .tam{
+		height: 570px;
+		width: 100%;
+	}
+	.tam-videos{
+	width: 330px;
+	height: 230px;
+	}
+	#centrado2{
+	margin-top: 0px;
+	margin-left: 70px;
+	border: 3px solid grey;
+	padding: 0;
+	overflow: hidden;
+	width: 400px;
+	height: 250px;
+	}
+	.texto-semblanza{
+	margin-left: 70px;
+	font-size: 18px;
+	margin-top: 10px;
+	}
+	.imgs-partes{
+	width: 260px;
+	height: 200px;
+	margin-top: 15px;
+	}
+	.testi-altos{
+	width: 100%;
+	height: 500px;
+	}
+	.certificado:hover{
+		border: solid 2px #015498;
+		transition: 0.7s; 
+		width: 600px;
+		height: auto;
+		margin-left: 35%;
+	}
+
+	/* Entrenamiento */
+	.icons-clientes{
+		margin-top: 0;
+		margin-left: 160px;
+	}
+	.clientes-pos{
+		margin-left: 0px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 200px;
+		height: auto;
+	}
+
+	/* LABOR SOCIAL */
+	.icons-clientes{
+		margin-top: 10px;
+		margin-left: 140px;
+	}
+}
+
+@media(min-width: 2560px){
+    
+    /* INDEX */
+    .testi-altos{
+	width: 100%;
+	height: 600px;
+	}
+
+	.certificado:hover{
+		border: solid 2px #015498;
+		transition: 0.7s; 
+		width: 400px;
+		height: auto;
+		margin-left: 30%;
+	}
+	
+	/* LABOR SOCIAL */
+	.icons-clientes{
+		margin-top: 10px;
+		margin-left: 280px;
+	}	
+	.clientes-pos{
+		margin-left: 0px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 200px;
+		height: auto;
+	}
+}

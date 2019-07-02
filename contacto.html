@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Contacto - Christian Ayala</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="icon" type="image/png" href="img/Favicon.png">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/estilos.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+	</head>
+	<body>
+
+<!-- Menu de navegación -->
+<img src="img/entrenador-vivencial.png" class="img-vivencial" alt="Entrenador vivencial">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a href="index.html" class="navbar-brand">
+				<img src="img/christian-ayala-logo.png" alt="Logo Christian Ayala" class="img-fluid" id="logoChris">
+			</a>
+			<button id="botonnav" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de navegación">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ml-auto fuente nav-tamano">
+					<li class="links nav-item">
+						<a href="quien-es-christian.html" class="nav-link">¿Quién es Christian Ayala?</a>
+					</li>
+					<li class=" links nav-item">
+						<a href="entrenamiento.html" class="nav-link">Entrenamiento vivencial motivacional</a>
+					</li>
+					<li class="links nav-item">
+						<a href="clientes.html" class="nav-link">Nuestros clientes</a>
+					</li>
+					<li class="links nav-item">
+						<a href="labor_social.html" class="nav-link">Labor social</a>
+					</li>
+					<li class="links nav-item">
+						<a href="contacto.html" class="nav-link">Contacto</a>
+					</li>
+				</ul>			
+			</div>
+	</nav>
+
+<!-- Imagen de presentación -->
+	<div class="container-fluid" style="padding: 0">
+		<img class="img-fluid" src="img/21.jpg" alt="" >
+	</div>
+
+	<!-- FORMULARIO DE CONTACTO-->
+
+	<div class="col-12 col-md-6 offset-md-1" style="margin-top: 50px; margin-bottom: 100px">
+		<p class="titulo2" style="font-size: 20px;">¿Tienes un evento y te gustaría la participación de Christian Ayala?</p>
+		<a href="mailto:entrenador@christianayala.com"><p class="fuente color-azul" style="font-size: 18px; margin-bottom: 40px">Por favor escribenos a este correo!</p></a>
+	</div>
+	
+	<hr>
+	<!-- Formulario de contacto -->
+	<div class="row justify-content-center" style="margin: 0">
+		<div class="col-10 col-md-6">
+		<h3 class="text-center titulo2" style="margin-top: 40px; margin-bottom: 40px">A continuación puedes dejarnos un mensaje con tus dudas o comentarios</h3>
+
+		<form class="register" action="enviar_mensaje.php" method="post" name="email_form" style="margin-bottom: 40px; margin-top: 30px">
+			<div class="form-group">
+				<small class="form-text text-muted fuente" style="margin-bottom: 20px">Por favor completa todos los campos</small>
+				<label for="nombre" class="fuente color-azul" style="font-size: 18px"><i class="far fa-check-square fa-2x"></i> Motivo:</label>
+				<input type="text" class="form-control" name="motivo" required>
+			</div>
+			<div class="form-group">
+				<label for="nombre" class="fuente color-azul" style="font-size: 18px"><i class="fas fa-user-circle fa-2x"></i> Nombre(s):</label>
+				<input type="text" class="form-control" name="nombre" required>
+			</div>
+			<div class="form-group">
+				<label for="apellidos" class="fuente color-azul" style="font-size: 18px"><i class="fas fa-user-circle fa-2x"></i> Apellido(s):</label>
+				<input type="text" class="form-control" name="apellidos" required>
+			</div>
+			<div class="form-group">
+				<label for="email" class="fuente color-azul" style="font-size: 18px"><i class="fas fa-at fa-2x"></i> Correo electrónico:</label>
+				<input type="email" class="form-control" name="email" required>
+			</div>
+			<div class="form-group">
+				<label for="comentario" class="fuente color-azul" style="font-size: 18px"><i class="fas fa-edit fa-2x"></i>Comentario:</label>
+				<textarea class="form-control" rows="3" name="comentarios" required></textarea>
+			</div>
+			<button type="submit" class="btn btn-outline-info btn-block">Enviar</button>
+		</form>
+	</div>
+	</div>
+
+<!-- FOOTER -->
+	<footer style="background-color: rgb(0,159,172);">
+		<div class="container-fluid">
+			<div class="row justify-content-center" >
+				<div class="col-3 col-md-1 py-3" style="margin-top: 30px;">
+					<a href="https://www.facebook.com/ChristianAyalaOficial/" target="_blank">
+						<i class="iconos fab fa-facebook-f fa-2x"></i>
+					</a>
+				</div>
+				<div class="col-3 col-md-1 py-3" style="margin-top: 30px;">
+					<a href="https://twitter.com/christianayalaO" target="_blank">
+						<i class="iconos fab fa-twitter fa-2x"></i>
+					</a>
+				</div>
+				<div class="col-3 col-md-1 py-3" style="margin-top: 30px;">
+					<a href="https://www.instagram.com/christianayalaoficial/" target="_blank">
+						<i class="iconos fab fa-instagram fa-2x"></i>
+					</a>
+				</div>
+				<div class=" col-3 col-md-1 py-3" style="margin-top: 30px;">
+					<a href="https://www.youtube.com/user/ayalacanaldelamancha" target="_blank">
+						<i class="iconos fab fa-youtube fa-2x"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="copyright" class="py-2" style="background-color: rgb(0,86,103);">
+			<p class="text-center"> <i class="far fa-copyright"></i> Christian Ayala. Todos los derechos reservados</p>
+		</div>
+	</footer>
+
+		
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	</body>
+</html>
+
+
